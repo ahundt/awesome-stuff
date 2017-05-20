@@ -16,19 +16,20 @@ MacOS
 
 ### Screenshots
 
-save to desktop:
-
-- Command+Shift+3 - capture all screens
-- Command+Shift+4 - select bounding box
-- Command+Shift+4 then spacebar - select a window
-
-copy for pasting:
+**copy for pasting**
 
 - Command+Control+Shift+3 - capture all screens
 - Command+Control+Shift+4 - select bounding box
 - Command+Control+Shift+4 the spacebar - select a window
 
-set screenshot format:
+**save to desktop**
+
+- Command+Shift+3 - capture all screens
+- Command+Shift+4 - select bounding box
+- Command+Shift+4 then spacebar - select a window
+
+
+**set screenshot format**
 
 ```
 defaults write com.apple.screencapture type png
