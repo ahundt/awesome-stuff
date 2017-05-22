@@ -37,6 +37,16 @@ defaults write com.apple.screencapture type png
 
 Options are png, jpg, gif, tiff, jpg
 
+Linux
+-----
+
+### OpenGL Crashing on Command Line Launch
+
+OpenGL crashed you need to specify the display on which to run the program as follows: 
+
+`DISPLAY=:0.0; sudo ./vrep.sh`
+
+Check your specific machine (or google) for what display variable to use.
 
 Python
 ------
