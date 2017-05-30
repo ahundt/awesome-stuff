@@ -37,6 +37,17 @@ defaults write com.apple.screencapture type png
 
 Options are png, jpg, gif, tiff, jpg
 
+### Sourcetree
+
+[Sourcetree](https://www.sourcetreeapp.com/) is a [Git](https://git-scm.com/) application for Windows + Mac
+
+[fix `stree` command line utility](https://jira.atlassian.com/browse/SRCTREE-3172)
+
+```
+alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
+```
+
+
 Linux
 -----
 
