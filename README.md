@@ -63,3 +63,11 @@ Python
 ------
 
 - [breathe](https://github.com/michaeljones/breathe) - C++ ReStructuredText and Sphinx bridge to Doxygen
+
+
+Git
+---
+
+Global .gitignore:
+
+`git config --global core.excludesfile ~/.gitignore`
