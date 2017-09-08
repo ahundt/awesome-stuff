@@ -37,6 +37,21 @@ defaults write com.apple.screencapture type png
 
 Options are png, jpg, gif, tiff, jpg
 
+
+### iTerm2 Zsh Keyboard shortcuts
+
+To be able to [skip to the next word with command left and command right](https://apple.stackexchange.com/a/263981/20386):
+
+
+If you are using Zsh, like Oh My Zsh, in iTerm then go to: Preferences > Profiles > Keys sub-menu
+
+Click the + sign to add a new command.
+
+Add your shortcut such as command + left arrow then choose "Send Escape Sequence"
+left: `[1;5D`
+right: `[1;5C`
+
+
 ### Sourcetree
 
 [Sourcetree](https://www.sourcetreeapp.com/) is a [Git](https://git-scm.com/) application for Windows + Mac
