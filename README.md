@@ -97,3 +97,7 @@ Load and authorize your ssh key (such as for github):
 See a `WARNING: UNPROTECTED PRIVATE KEY FILE!` perimssions error on you ssh key?
 
 `chmod 600 ~/.ssh/id_rsa`
+
+[xonsh shell](http://xon.sh):
+
+`source-bash eval "$(ssh-agent -s)" && ssh-add ~/.ssh/github_rsa`
