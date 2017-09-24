@@ -101,3 +101,8 @@ See a `WARNING: UNPROTECTED PRIVATE KEY FILE!` perimssions error on you ssh key?
 [xonsh shell](http://xon.sh):
 
 `source-bash eval "$(ssh-agent -s)" && ssh-add ~/.ssh/github_rsa`
+
+Command line / Terminal
+-----------------------
+
+Kill a process when `ctrl+c` doesn't work: `ctrl + \`
