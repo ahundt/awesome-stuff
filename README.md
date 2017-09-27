@@ -111,5 +111,7 @@ Kill a process when `ctrl+c` doesn't work: `ctrl + \`
 "repair" broken/corrupted pdfs
 ------------------------------
 
-pdf2ps 17_statics_PPT\ copy.pdf
-ps2pdf 17_statics_PPT\ copy.ps
+```
+pdf2ps file.pdf
+ps2pdf file.ps
+```
