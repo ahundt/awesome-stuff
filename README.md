@@ -105,10 +105,11 @@ See a `WARNING: UNPROTECTED PRIVATE KEY FILE!` perimssions error on you ssh key?
 Command line / Terminal
 -----------------------
 
-Kill a process when `ctrl+c` doesn't work: `ctrl + \`
+### Kill a process when `ctrl+c` doesn't work
 
+`ctrl + \`
 
-## "repair" broken/corrupted pdfs
+### "repair" broken/corrupted pdfs
 
 
 ```
@@ -117,26 +118,25 @@ ps2pdf file.ps
 ```
 
 
-## [Find libraries if you have linking trouble](https://askubuntu.com/questions/32507/how-do-i-get-a-list-of-installed-files-from-a-package)
+### [Find libraries if you have linking trouble](https://askubuntu.com/questions/32507/how-do-i-get-a-list-of-installed-files-from-a-package)
 
     dpkg-query -L ros-kinetic-opencv3
 
-How to find the versions of drivers you need
---------
+### How to find the versions of drivers you need
 
     sudo ubuntu-drivers devices
     
-## [Get the display working with multiple nvidia GPUs](https://adler-j.github.io/2017/07/19/Dual-GPU-configuration-in-Ubuntu-1604-and-CUDA-80.html)
+### [Get the display working with multiple nvidia GPUs](https://adler-j.github.io/2017/07/19/Dual-GPU-configuration-in-Ubuntu-1604-and-CUDA-80.html)
 
     sudo nvidia-xconfig -multigpu=on
 
 
-## Correct [python permission errors](http://stackoverflow.com/questions/21093002/error-could-not-create-usr-local-lib-python2-7-dist-packages-virtualenv-suppo)
+### Correct [python permission errors](http://stackoverflow.com/questions/21093002/error-could-not-create-usr-local-lib-python2-7-dist-packages-virtualenv-suppo)
 
 
     sudo chown -R $USER /usr/local/lib/python2.7
 
-## [Make zsh your shell without root access](http://unix.stackexchange.com/questions/136423/making-zsh-default-shell-without-root-access)
+### [Make zsh your shell without root access](http://unix.stackexchange.com/questions/136423/making-zsh-default-shell-without-root-access)
 
 
 ```
