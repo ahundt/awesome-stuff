@@ -1,6 +1,6 @@
 # Awesome Stuff
 
-Random awesome stuff
+Random awesome hints, fixes and stuff. Also see [robotics-setup](https://github.com/ahundt/robotics_setup).
 
 Awesome Lists
 -------------
@@ -74,6 +74,19 @@ OpenGL crashed you need to specify the display on which to run the program as fo
 
 Check your specific machine (or google) for what display variable to use.
 
+### [Find libraries if you have linking trouble](https://askubuntu.com/questions/32507/how-do-i-get-a-list-of-installed-files-from-a-package)
+
+    dpkg-query -L ros-kinetic-opencv3
+
+### How to find the versions of drivers you need
+
+    sudo ubuntu-drivers devices
+    
+### [Get the display working with multiple nvidia GPUs](https://adler-j.github.io/2017/07/19/Dual-GPU-configuration-in-Ubuntu-1604-and-CUDA-80.html)
+
+    sudo nvidia-xconfig -multigpu=on
+
+
 Python
 ------
 
@@ -116,20 +129,6 @@ Command line / Terminal
 pdf2ps file.pdf
 ps2pdf file.ps
 ```
-
-
-### [Find libraries if you have linking trouble](https://askubuntu.com/questions/32507/how-do-i-get-a-list-of-installed-files-from-a-package)
-
-    dpkg-query -L ros-kinetic-opencv3
-
-### How to find the versions of drivers you need
-
-    sudo ubuntu-drivers devices
-    
-### [Get the display working with multiple nvidia GPUs](https://adler-j.github.io/2017/07/19/Dual-GPU-configuration-in-Ubuntu-1604-and-CUDA-80.html)
-
-    sudo nvidia-xconfig -multigpu=on
-
 
 ### Correct [python permission errors](http://stackoverflow.com/questions/21093002/error-could-not-create-usr-local-lib-python2-7-dist-packages-virtualenv-suppo)
 
