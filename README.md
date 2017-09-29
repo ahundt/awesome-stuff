@@ -84,8 +84,35 @@ Check your specific machine (or google) for what display variable to use.
     
 ### [Get the display working with multiple nvidia GPUs](https://adler-j.github.io/2017/07/19/Dual-GPU-configuration-in-Ubuntu-1604-and-CUDA-80.html)
 
-    sudo nvidia-xconfig -multigpu=on
+There are a lot of steps for this so follow the link above if the instructions below aren't clear.
 
+    # figure out the pci bus slot of the device you want to display on (0, 1, 2 etc)
+    nvidia-smi -a
+
+look for a line like the following for the device you want to display on:
+
+    PCI
+        Bus                         : 0x03    
+
+create a new gpu config file and edit it:
+
+    sudo nvidia-xconfig -multigpu=on
+    sudo vim /etc/X11/xorg.conf
+    
+Update xorg.conf "Device" section to look like the following, replacing the "2" below with the value you found in `nvidia-smi -a`:
+
+```
+Section "Device"
+    Identifier     "Device0"
+    Driver         "nvidia"
+    VendorName     "NVIDIA Corporation"
+    BusID          "PCI:2:0:0"
+EndSection
+```
+
+Save and exit then restart the computer.
+
+    sudo reboot now
 
 Python
 ------
