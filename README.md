@@ -114,6 +114,22 @@ Save and exit then restart the computer.
 
     sudo reboot now
 
+
+### Auto mounting drives at startup
+
+[Adapted easy instructions](https://askubuntu.com/a/848542):
+
+1. Open `Disks` Ubuntu application
+2. Select the partition
+3. click the "settings" cog wheel
+4. click `Edit Mount Options`
+5. change settings to mount at startup
+
+More manual terminal instructions:
+
+- `/etc/fstab` - https://help.ubuntu.com/community/Fstab
+- [ntfs](https://askubuntu.com/questions/46588/how-to-automount-ntfs-partitions?noredirect=1&lq=1)
+
 Python
 ------
 
