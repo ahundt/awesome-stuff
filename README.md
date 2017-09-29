@@ -115,3 +115,34 @@ Kill a process when `ctrl+c` doesn't work: `ctrl + \`
 pdf2ps file.pdf
 ps2pdf file.ps
 ```
+
+
+[How to find libraries if you have linking trouble](https://askubuntu.com/questions/32507/how-do-i-get-a-list-of-installed-files-from-a-package)
+----------
+
+    dpkg-query -L ros-kinetic-opencv3
+
+How to find the versions of drivers you need
+--------
+
+    sudo ubuntu-drivers devices
+    
+How to [get the display working with multiple nvidia GPUs](https://adler-j.github.io/2017/07/19/Dual-GPU-configuration-in-Ubuntu-1604-and-CUDA-80.html)
+----------
+
+    sudo nvidia-xconfig -multigpu=on
+
+
+Correct [python permission errors](http://stackoverflow.com/questions/21093002/error-could-not-create-usr-local-lib-python2-7-dist-packages-virtualenv-suppo)
+-----------
+
+    sudo chown -R $USER /usr/local/lib/python2.7
+
+[Making zsh your shell without root access](http://unix.stackexchange.com/questions/136423/making-zsh-default-shell-without-root-access)
+-----------
+
+```
+export SHELL=`which zsh`
+[ -z "$ZSH_VERSION" ] && exec "$SHELL" -l
+```
+
