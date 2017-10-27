@@ -82,6 +82,10 @@ Check your specific machine (or google) for what display variable to use.
 
     sudo ubuntu-drivers devices
     
+### View your disk io
+
+    sudo iotop -aoP
+    
 ### [Get the display working with multiple nvidia GPUs](https://adler-j.github.io/2017/07/19/Dual-GPU-configuration-in-Ubuntu-1604-and-CUDA-80.html)
 
 There are a lot of steps for this so follow the link above if the instructions below aren't clear.
