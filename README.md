@@ -8,6 +8,7 @@ Awesome Lists
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - A curated list of awesome lists on every topic, with particular detail for software, math and machine learning topics.
 - [awesome-robotics](https://github.com/ahundt/awesome-robotics) - Awesome robotics related stuff.
 - [awesome-tensorflow](https://github.com/jtoy/awesome-tensorflow) - Awesome TensorFlow experiments, libraries, and projects.
+- [linux tips](https://github.com/shundhammer/huha-linux-tips/blob/master/doc/ubuntu-tips.md) - decent utilities and problem solving for ubuntu and linux (though not all suggestions seem secure)
 
 MacOS
 -----
