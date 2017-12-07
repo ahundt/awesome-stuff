@@ -63,6 +63,12 @@ right: `[1;5C`
 alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
 ```
 
+### View user manual aka `man` files as a PDF in Preview
+
+```
+man -t command | open -f -a /Applications/Preview.app
+```
+
 
 Linux
 -----
