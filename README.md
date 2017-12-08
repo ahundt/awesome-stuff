@@ -204,3 +204,6 @@ export SHELL=`which zsh`
 [ -z "$ZSH_VERSION" ] && exec "$SHELL" -l
 ```
 
+### Attribution of Pair programming with git
+
+https://github.com/A-Helberg/pair-up
