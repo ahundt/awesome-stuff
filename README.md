@@ -81,6 +81,10 @@ OpenGL crashed you need to specify the display on which to run the program as fo
 
 Check your specific machine (or google) for what display variable to use.
 
+### [List your installed Ubuntu repositories](https://stackoverflow.com/a/12739281/99379)
+
+    apt-cache policy |grep http |awk '{print $2 $3}' |sort -u
+
 ### [Find libraries if you have linking trouble](https://askubuntu.com/questions/32507/how-do-i-get-a-list-of-installed-files-from-a-package)
 
     dpkg-query -L ros-kinetic-opencv3
