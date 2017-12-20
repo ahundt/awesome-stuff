@@ -155,6 +155,10 @@ More manual terminal instructions:
 Python
 ------
 
+[pip install a local package folder](https://stackoverflow.com/a/24000174/99379) with pip such that changes are immediately available in the package.
+
+    pip install -e . --user --upgrade
+
 - [breathe](https://github.com/michaeljones/breathe) - C++ ReStructuredText and Sphinx bridge to Doxygen
 
 
