@@ -152,6 +152,10 @@ More manual terminal instructions:
 - `/etc/fstab` - https://help.ubuntu.com/community/Fstab
 - [ntfs](https://askubuntu.com/questions/46588/how-to-automount-ntfs-partitions?noredirect=1&lq=1)
 
+### [Ubuntu equivalent to MacOS quick look](http://www.omgubuntu.co.uk/2016/09/gnome-sushi-mac-quick-look-nautilus)
+
+    sudo apt-get install gnome-sushi
+
 Python
 ------
 
