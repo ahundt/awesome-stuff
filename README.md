@@ -85,6 +85,15 @@ Check your specific machine (or google) for what display variable to use.
 
     apt-cache policy |grep http |awk '{print $2 $3}' |sort -u
 
+### [Search ubuntu packages on command line](https://askubuntu.com/a/160899/333984)
+
+    apt-cache search keyword
+ 
+To list all packages:
+
+   apt-cache search .
+
+
 ### [Find libraries if you have linking trouble](https://askubuntu.com/questions/32507/how-do-i-get-a-list-of-installed-files-from-a-package)
 
     dpkg-query -L ros-kinetic-opencv3
