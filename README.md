@@ -239,9 +239,13 @@ First [install npm (node package manager) and then webtorrent](https://nodejs.or
 ```
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
-npm install webtorrent webtorrent-cli -g
+npm install webtorrent webtorrent-cli webtorrent-hybrid -g
 ```
 Then you can create your torrent:
 
-`webtorrent create /path/to/file/or/folder/to/share/ -o /path/to/output/torrent/share.torrent`
+`webtorrent create /path/to/file/or/folder/to/share/ -o /path/to/file/or/folder/to/share.torrent`
+
+And seed it for others to download:
+
+`webtorrent seed /path/to/file/or/folder/to/share.torrent`
 
