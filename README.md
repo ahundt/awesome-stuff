@@ -249,3 +249,10 @@ And seed it for others to download:
 
 `webtorrent seed /path/to/file/or/folder/to/share.torrent`
 
+
+Command line terminal
+---------------------
+
+Copy files with progress bar:
+
+`rsync -ah --info=progress2 /copy/from/here /copy/to/here`
