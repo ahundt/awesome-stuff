@@ -252,3 +252,11 @@ And seed it for others to download:
 ### Copy files with progress bar
 
 `rsync -ah --info=progress2 /copy/from/here /copy/to/here`
+
+### See all locations of a specific filename
+
+`whereis`
+
+example: `whereis cmake`
+
+To see the current default instead use `which`, ie `which cmake`.
