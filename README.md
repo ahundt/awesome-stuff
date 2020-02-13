@@ -260,3 +260,7 @@ And seed it for others to download:
 example: `whereis cmake`
 
 To see the current default instead use `which`, ie `which cmake`.
+
+### Compress a PDF
+
+On macOS open the pdf with the "ColorSync Utility".
