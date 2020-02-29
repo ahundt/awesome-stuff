@@ -264,3 +264,7 @@ To see the current default instead use `which`, ie `which cmake`.
 ### Compress a PDF
 
 On macOS open the pdf with the "ColorSync Utility".
+
+### Prepping a latex paper for submission to [ArXiV.org](arxiv.org) with bibtex
+
+`pdflatex main.tex --shell-escape && bibtex main && pdflatex main.tex && bibtex main && rm -rf main.pdf && cp main.bbl sample.bbl`
