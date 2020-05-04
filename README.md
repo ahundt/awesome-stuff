@@ -174,6 +174,10 @@ Python
 
 - [breathe](https://github.com/michaeljones/breathe) - C++ ReStructuredText and Sphinx bridge to Doxygen
 
+- [py-spy](https://github.com/benfred/py-spy) - Sampling based profiling of python code from a separate process. View with [speedscope.app](https://www.speedscope.app) and follow the [importing form py-spy](https://github.com/jlfwong/speedscope/wiki/Importing-from-py-spy-(python)) instructions below.
+
+    py-spy --record $PID --format speedscope -o profile.speedscope.json
+
 
 Git
 ---
