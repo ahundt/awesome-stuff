@@ -176,8 +176,9 @@ Python
 
 - [py-spy](https://github.com/benfred/py-spy) - Sampling based profiling of python code from a separate process. View with [speedscope.app](https://www.speedscope.app) and follow the [importing form py-spy](https://github.com/jlfwong/speedscope/wiki/Importing-from-py-spy-(python)) instructions below.
 
+```bash
     py-spy --record $PID --format speedscope -o profile.speedscope.json
-
+```
 
 Git
 ---
