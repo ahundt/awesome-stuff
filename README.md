@@ -165,6 +165,11 @@ More manual terminal instructions:
 
     sudo apt-get install gnome-sushi
 
+### No space left on device (when there is space) inotify limit
+
+This is when you've hit the inotify limit and files can't be opened. 
+[Instructions to see the limit and fix it]( https://dev.to/rubiin/ubuntu-increase-inotify-watcher-file-watch-limit-kf4) or [Alternate instructions](https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers).
+
 Python
 ------
 
